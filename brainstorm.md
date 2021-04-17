@@ -112,4 +112,4 @@ you should see
 
 // From here, I plan to teach how to get the robot to respond with a new value.
 
-// Then I plan to teach how to train the robot how to play rock paper scissors.
+// Then I plan to teach how to train the robot how to play rock paper scissors. but maybe like a magic version with "fireball, water, and lightning or something"
