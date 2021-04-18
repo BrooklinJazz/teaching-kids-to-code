@@ -101,15 +101,103 @@ speak()
 Now we're going to learn how to tell the computer to "do our bidding".
 
 ```
-console.log("DO MY BIDDING! tell me, what is 5 * 12?")
+console.log("DO MY BIDDING! tell me, what is 2 * 2?")
 
 speak()
 ```
 
 you should see 
 
-// DO MY BIDDING! tell me, what is 5 * 12?
+// DO MY BIDDING! tell me, what is 2 * 2?
+
+// opportunity to ask what the kid thinks they will see happen
+
+However you'll notice that when your robot friend speaks it still responds with "Yes Master"
+
+so remember that whenever you want your robot friend to do anything,
+you need to teach it how.
+
+lets teach our robot how to say something that isn't "Yes Master".
+
+```
+console.log("RISE MY LOYAL SERVANT AND DO MY BIDDING!!!")
+
+function speak(words) {
+    console.warn("Computer: " + words)
+}
+
+speak("4")
+```
+
+So we've taught our computer how to speak and say anything we want.
+
+go ahead and talk to your robot friend for a bit.
+
+you can make it say anything you want! but if you're looking for some ideas why not try
+
+- "You are the greatest " + name
 
 // From here, I plan to teach how to get the robot to respond with a new value.
 
 // Then I plan to teach how to train the robot how to play rock paper scissors. but maybe like a magic version with "fireball, water, and lightning or something"
+
+- using your newest magic spell "console.log()"
+
+# Progression
+- learn a magic spell (console.log())
+- learn how to give your "robot" a function
+- learn how to put arguments into a function
+- learn how to use variables?
+- if statements
+- booleans
+- numbers and operations
+- stretch goals using the lesson
+
+- play rock paper scissors
+```
+
+```
+
+# Progression of code
+
+```js
+// learn your first magic spell "console.log"
+console.log("Hello my robot friend")
+
+// learn how to create variables and operations
+let name = "Brooklin"
+console.log("Hello my robot friend, my name is " + name)
+
+// learn how to make a function
+function speak() {
+    console.log("Computer: " + "Hello " + name)
+}
+
+speak()
+
+// learn how to pass arguments into a function
+function speak(words) {
+    console.log("Computer: " + words)
+}
+
+speak("Hello")
+
+// learn how to use conditionals and comparators
+// also play a game with a partner, write this code but change your guess.
+
+function guessTheNumber(answer) {
+    let guess = 5
+    if (answer === guess) {
+        console.log("Correct!")
+    } else {
+        console.log("Guess Again!")
+    }
+}
+
+guessTheNumber(3)
+```
+
+
+
+
+console.log("Hello " + name)
